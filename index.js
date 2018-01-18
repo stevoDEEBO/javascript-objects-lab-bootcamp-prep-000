@@ -9,7 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  var object = recipes
-  object.key = value
-  return object
+  var obj = recipes
+  obj.key = value
+  return obj
 }
